@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model files (too large for git — download from Google Drive)
+*.keras
+*.h5
+*.tflite
+*.pb
+*.onnx
+saved_model/
+
+# Data directories (too large for git — download via Colab notebook)
+data/
+data_raw*/
+train/data.zip
+
+# Training artifacts
+*.ckpt*
+checkpoint
+logs/
+wandb/
+
+# Temporary files
+*.tmp
+*.log
+uploaded_video.mp4
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Results (regenerated during evaluation)
+results/
+
+# Build artifacts
+make_colab_notebook.py
